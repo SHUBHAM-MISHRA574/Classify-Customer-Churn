@@ -31,7 +31,7 @@ Develop a supervised classification model to predict customer churn and provide 
 
 ---
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - Python 
 - Pandas, NumPy
@@ -41,7 +41,7 @@ Develop a supervised classification model to predict customer churn and provide 
 
 ---
 
-## ⚙ Process & Methodology
+##  Process & Methodology
 
 1. **Data Cleaning**  
    - Converted `TotalCharges` to numeric
@@ -94,5 +94,5 @@ This model helps:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
