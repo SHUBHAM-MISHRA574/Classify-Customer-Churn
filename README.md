@@ -97,6 +97,23 @@ None
 
 Missing values:
 customerID          0
+[5 rows x 21 columns]
+
+Confusion Matrix:
+[[942  94]
+ [193 180]]
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.83      0.91      0.87      1036
+           1       0.66      0.48      0.56       373
+
+    accuracy                           0.80      1409
+   macro avg       0.74      0.70      0.71      1409
+weighted avg       0.78      0.80      0.79      1409
+
+
 
 ---
 
