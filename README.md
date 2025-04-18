@@ -5,7 +5,7 @@ Predict customer churn using machine learning to help businesses retain valuable
 
 ---
 
-## 📌 Overview
+##  Overview
 
 Customer churn — when a customer leaves a service — is a major concern for subscription-based businesses. This project builds a machine learning model that classifies whether a customer is likely to churn, based on historical data from a telecommunications company.
 
@@ -13,13 +13,13 @@ Using a Random Forest Classifier, we identify key churn indicators such as tenur
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 Develop a supervised classification model to predict customer churn and provide insights into the key factors contributing to customer attrition.
 
 ---
 
-## 🗂️ Dataset Summary
+##  Dataset Summary
 
 - **Records**: 7,043 customers
 - **Target Variable**: `Churn` (Yes/No)
@@ -31,9 +31,9 @@ Develop a supervised classification model to predict customer churn and provide 
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠 Technologies Used
 
-- Python 🐍
+- Python 
 - Pandas, NumPy
 - Scikit-learn
 - Seaborn & Matplotlib
@@ -41,7 +41,7 @@ Develop a supervised classification model to predict customer churn and provide 
 
 ---
 
-## ⚙️ Process & Methodology
+## ⚙ Process & Methodology
 
 1. **Data Cleaning**  
    - Converted `TotalCharges` to numeric
@@ -58,7 +58,7 @@ Develop a supervised classification model to predict customer churn and provide 
 
 ---
 
-## 📈 Results
+##  Results
 
 - **Accuracy**: ~79.7%
 - **Precision**: 82.9% (No Churn), 66.2% (Churn)
@@ -67,7 +67,7 @@ Develop a supervised classification model to predict customer churn and provide 
 
 ---
 
-## 📊 Key Insights
+##  Key Insights
 
 - Customers with **short tenure** are more likely to churn.
 - **Month-to-month contracts** are associated with higher churn.
@@ -75,7 +75,7 @@ Develop a supervised classification model to predict customer churn and provide 
 
 ---
 
-## 💡 Business Impact
+##  Business Impact
 
 This model helps:
 - Identify at-risk customers early
@@ -85,7 +85,7 @@ This model helps:
 
 ---
 
-## 🚀 Future Enhancements
+##  Future Enhancements
 
 - Hyperparameter tuning
 - Handle class imbalance (e.g., SMOTE, weighted models)
